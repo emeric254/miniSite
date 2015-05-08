@@ -1,4 +1,7 @@
 <?php
+	
+	session_start();
+    
     $host = "server";
     $database = "database";
     $login = "login";

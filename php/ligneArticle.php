@@ -7,17 +7,19 @@
         </h3>
     </div>
     <div class="panel-body">
-        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-1" >
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-1" >
             <a href="page.php?id=<?php print $row['id']; ?>">
                 <img data-holder-rendered="true" src="images/Preview/<?php print $row['id']; ?>.jpg" style="width: 64px; height: 64px;" class="img-thumbnail" alt="">
             </a>
         </div>
-        <p>
-            <?php print substr($row['description'],0,200)."..."; ?>
-            <span class="label label-success"><a href="page.php?id=<?php print $row['id']; ?>">Suite</a></span>
-        </p>
         <div class="row">
-            <p>
+			<p>
+				<?php print substr($row['description'],0,200)."..."; ?>
+				<span class="label label-success"><a href="page.php?id=<?php print $row['id']; ?>">Suite</a></span>
+			</p>
+        </div>
+        <div class="row col-xs-12">
+            <p style="text-align:center;">
                 <?php
                     $req2 = "select id, nom from TypeContenu where id in (select idTypeContenu from representer where idArticle='".$row['id']."') order by nom";
                     $link->prepare($req2);
