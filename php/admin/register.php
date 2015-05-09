@@ -1,5 +1,7 @@
 <?php
     include("connect.php");
+    // @TODO
+    //if !connect
 
     if(isset($_POST['nom']) && isset($_POST['desc']))
     {

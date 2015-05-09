@@ -1,4 +1,8 @@
-<?php include ("connect.php"); ?>
+<?php 
+	include ("connect.php");
+    // @TODO
+    //if !connect
+?>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
