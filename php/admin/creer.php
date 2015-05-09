@@ -1,6 +1,9 @@
 <?php
     include("haut.php");
     include("connect.php");
+    
+    // @TODO
+    //if connect
 ?>
         <fieldset>
             <form action="register.php" method="POST">

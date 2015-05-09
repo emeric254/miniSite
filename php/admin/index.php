@@ -1,4 +1,8 @@
-<?php include("haut.php"); ?>
+<?php
+	include("haut.php");
+    // @TODO
+    //if !connect
+?>
                 <h2 class="form-signin-heading">Connectez-vous</h2>
             </div>
         </div>
@@ -13,5 +17,20 @@
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
             </form>
         </div>
+<?php
+	include("haut.php");
+    // @TODO
+    //else
+    /*
+?>
+                <h2 class="form-signin-heading">Menu Administration</h2>
+            </div>
+        </div>
+        <div class="container">
+			* MENU ADMIN * 
+        </div>
+<?php
+	*/
+?>
     </body>
 </html>
