@@ -5,10 +5,10 @@
     $pass = "password";
     try
     {
-        $link = new PDO("mysql:host=".$host.";dbname=".$database, $login, $pass);
+        $link = new PDO("mysql:host=$host;bname=$database", $login, $pass);
         $link->exec("SET CHARACTER SET utf8");
         /*
-            $link = new PDO("mysql:host=".$host.";dbname=".$database, $login, $pass, array(PDO::ATTR_PERSISTENT => true));
+            $link = new PDO("mysql:host=$host;dbname=$database", $login, $pass, array(PDO::ATTR_PERSISTENT => true));
         */
     }
     catch (PDOException $e)
