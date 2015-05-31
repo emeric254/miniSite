@@ -13,10 +13,10 @@
             </a>
         </div>
         <div class="row">
-			<p>
-				<?php print substr($row['description'],0,200)."..."; ?>
-				<span class="label label-success"><a href="page.php?id=<?php print $row['id']; ?>">Suite</a></span>
-			</p>
+            <p>
+                <?php print substr($row['description'],0,200)."..."; ?>
+                <span class="label label-success"><a href="page.php?id=<?php print $row['id']; ?>">Suite</a></span>
+            </p>
         </div>
         <div class="row col-xs-12">
             <p style="text-align:center;">

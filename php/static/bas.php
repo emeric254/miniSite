@@ -1,7 +1,3 @@
-        <?php
-            /* ferme la connection a la base de donnees */
-            $link = null;
-        ?>
         <footer class="footer" style="position: absolute; bottom: 0; width: 100%; height: 60px; background-color: #f5f5f5;">
             <div class="container">
                 <p class="pull-right">
@@ -18,3 +14,7 @@
         <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
+<?php
+    /* ferme la connection a la base de donnees */
+    $link = null;
+?>

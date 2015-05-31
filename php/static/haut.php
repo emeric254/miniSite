@@ -16,6 +16,3 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     </head>
     <body role="document" style="padding-top: 50px; padding-bottom: 20px; margin-bottom: 60px;">
-
-        <div class="jumbotron">
-            <div class="container theme-showcase" role="main" >
