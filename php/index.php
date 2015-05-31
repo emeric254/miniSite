@@ -7,9 +7,9 @@
     {
         $page = htmlspecialchars($_GET['page']);
 
-        if ( file_exists("core/$page.php") )
+        if ( file_exists("pages/$page.php") )
         {
-            $path = "core/$page.php";
+            $path = "pages/$page.php";
         }
         else
         {
@@ -18,7 +18,7 @@
     }
     else
     {
-        $page="accueil"; //page par default, l'accueil
+        $path="pages/accueil.php"; //page par default, l'accueil
     }
 
     include("static/haut.php");
