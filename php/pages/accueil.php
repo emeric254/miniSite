@@ -1,3 +1,8 @@
+<?php
+    $titrePage = "Accueil";
+    include("static/haut.php");
+    include("static/navbar.php");
+?>
         <div class="alert alert-success" role="alert">
             <strong>Bienvenue!</strong> Naviguez sur le site en faisant votre choix dans la barre de menu ci dessus ;)
         </div>
@@ -52,3 +57,6 @@
         </div>
     </div>
 </div>
+<?php
+    include("static/bas.php");
+?>

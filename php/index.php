@@ -21,10 +21,6 @@
         $path="pages/accueil.php"; //page par default, l'accueil
     }
 
-    include("static/haut.php");
-    include("static/navbar.php");
+    include_once($path);
 
-    include($path);
-
-    include("static/bas.php");
 ?>

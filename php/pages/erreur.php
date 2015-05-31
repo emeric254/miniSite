@@ -1,3 +1,8 @@
+<?php
+    $titrePage = "Erreur!";
+    include("static/haut.php");
+    include("static/navbar.php");
+?>
         <!-- Titre -->
         <div class="well">
             <div class="container theme-showcase" role="main" >
@@ -11,3 +16,6 @@
                 </div>
             </div>
         </div>
+<?php
+    include("static/bas.php");
+?>
